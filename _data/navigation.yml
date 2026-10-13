@@ -1,0 +1,14 @@
+- title: Home
+  pagelink: index.html
+
+- title: About
+  pagelink: about.html
+
+- title: Work with Me
+  pagelink: services.html
+
+- title: Method
+  pagelink: method.html
+
+- title: Contact
+  pagelink: contact.html
