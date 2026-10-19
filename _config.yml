@@ -26,6 +26,7 @@ description: #>- # this means to ignore newlines until "baseurl:"
   Let's build the foundation that allows everything above it grow."
 url: "https://www.findyourunderstory.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
+google_analytics_id: 'G-QQWC38YPSL'
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
