@@ -1,11 +1,14 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+/* Added specifically for Shawheen-recommended fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -103,11 +106,15 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
-		font-size: 15pt;
+		font-family: "Cabin", sans-serif;
+		/* font-size: 15pt; */
 		font-weight: 400;
-		letter-spacing: 0.075em;
-		line-height: 1.65em;
+		/*letter-spacing: 0.075em; */
+		line-height: 1.5em; 
+		font-optical-sizing: auto;
+  		font-style: normal;
+  		font-variation-settings:
+    		"wdth" 100;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -164,11 +171,14 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
-		font-weight: 800;
-		letter-spacing: 0.225em;
-		line-height: 1em;
-		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		/* font-weight: 800; */
+		/* letter-spacing: 0.1em; */
+		/* line-height: 1em; */
+		/*margin: 0 0 1em 0; */
+		/* text-transform: uppercase; */
+		font-family: "Faculty Glyphic", sans-serif;
+  		font-weight: 400;
+  		font-style: normal;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
