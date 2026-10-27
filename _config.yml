@@ -29,6 +29,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 google_analytics_id: 'G-QQWC38YPSL'
 #twitter_username: jekyllrb
 #github_username:  jekyll
+linkedin_url: 'https://www.linkedin.com/company/understory-consulting-llc'
 
 # Build settings
 theme: minima
