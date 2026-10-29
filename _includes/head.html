@@ -1,10 +1,24 @@
 <head>
+{%- if page.seo_title -%}
+	<title>{{ page.seo_title }}</title>
+{%- else -%}
 	<title>{{ site.title }}</title>
+{%- endif -%}
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 	<script src="https://kit.fontawesome.com/2349b11363.js" crossorigin="anonymous"></script>
+
+	<!-- Meta -->
+	<meta name="description" content="{{ site.seo_description }}" />
+{%- if page.seo_title -%}
+	<meta name="og:title" content="{{ page.seo_title }}" />
+{%- else -%}
+	<meta name="og:title" content="{{ site.title }}" />
+{%- endif -%}
+	<meta name="og:image" content="/assets/images/Understory_emblem thumbnail_ 4.png" />
+	<meta name="og:url" content="{{ site.url }}">
 </head>
 
 <!-- Google tag (gtag.js) -->

@@ -18,12 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Understory
+title: 'Find What Drives Your Team | Find Your Understory'
 email: info@findyourunderstory.com
 description: #>- # this means to ignore newlines until "baseurl:"
   "The real work of an organization happens beneath the surface, <br>
   in the habits and systems nobody puts in the annual report. <br>
   Let's build the foundation that allows everything above it to flourish."
+seo_description: 
+  "We help leaders cultivate their organizational understory: the daily 
+  habits, communication rhythms, and decisions that empower teams to flourish."
 url: "https://www.findyourunderstory.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 google_analytics_id: 'G-QQWC38YPSL'
