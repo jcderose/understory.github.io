@@ -25,7 +25,7 @@ description: #>- # this means to ignore newlines until "baseurl:"
   in the habits and systems nobody puts in the annual report. <br>
   Let's build the foundation that allows everything above it to flourish."
 seo_description: 
-  "We help leaders cultivate their organizational understory: the daily 
+  "I help leaders cultivate their organizational understory: the daily 
   habits, communication rhythms, and decisions that empower teams to flourish."
 url: "https://www.findyourunderstory.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
