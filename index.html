@@ -45,6 +45,15 @@ layout: index
 	</section>
 </section>
 
+<section class="wrapper style5">
+    <div class="inner">
+        <h2>Who I've partnered with</h2>
+			{%- for client in site.data.clients -%}
+			<img src="{{ client.logo }}" alt="{{ client.name }}" class="logo-wall_logo" {{ client.style }} />
+			{%- endfor -%}
+	</div>
+</section>
+
 <section id="cta" class="wrapper style2">
 	<div class="inner">
 		<header>

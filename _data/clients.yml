@@ -1,0 +1,15 @@
+- name: Support4Recovery
+  logo: /assets/logos/Logo-Support4Recovery.png
+  style: 'style="max-width: 200px;"'
+
+- name: ShadowPower
+  logo: /assets/logos/Logo-ShadowPower.jpg
+  style: 'style="max-width: 200px;"'
+
+- name: Women In Film SF Bay Area
+  logo: /assets/logos/Logo-WIFSFBA.png
+  style: 'style="max-width: 100px;"' 
+
+- name: Village Imaging
+  logo: /assets/logos/Logo-VillageImaging.png
+  style: 'style="max-width: 125px;"' 

@@ -4008,3 +4008,12 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	/* Client Logo Wall */
+	.logo-wall_logo {
+		margin: auto; 
+		height: auto; 
+		width: 100%; 
+		margin: 50px; 
+		vertical-align: middle;
+	}
