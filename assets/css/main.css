@@ -3872,7 +3872,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/Understory_background_ texture light.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/Understory_background_ texture light.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/Understory_background_ texture light.png");
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
